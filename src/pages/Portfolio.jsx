@@ -5,14 +5,14 @@ const Portfolio = () => {
       title: "E-Commerce Website",
       description: "A responsive online store built using React and Firebase.",
       tech: ["React", "Firebase", "Tailwind"],
-      liveLink: "#",
+      liveLink: "https://e-commerce-website-alpha-henna.vercel.app/",
       codeLink: "#",
     },
     {
       title: "Todo App",
       description: "A simple and clean todo list app with localStorage.",
       tech: ["React", "JavaScript"],
-      liveLink: "#",
+      liveLink: "https://todo-app-blue-five-22.vercel.app/",
       codeLink: "#",
     },
   ];
