@@ -1,15 +1,22 @@
-// src/pages/Home.jsx
 import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
-
   return (
-    <div className="h-screen flex flex-col justify-center items-start bg-cover bg-center p-6">
-      <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
-        Asif
+    <div
+      className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-4"
+      style={{
+        backgroundImage: "url('/bg-home.jpg')", // ✅ Make sure image is in public folder
+        margin: 0,
+        padding: 0,
+      }}
+    >
+      <h1 className="text-5xl sm:text-6xl font-extrabold text-white mb-4 drop-shadow-lg">
+        Hi, I'm <span className="	text-gray-900">Asif</span>
       </h1>
-      <h2 className="text-2xl text-gray-700 dark:text-gray-300">
-        I’m <span className="text-blue-500">
+
+      <h2 className="text-2xl sm:text-3xl text-white font-medium drop-shadow-md">
+        I’m{" "}
+        <span className="	text-gray-900 font-semibold">
           <Typewriter
             words={['a Frontend Developer', 'a React Developer', 'a Web Designer']}
             loop={0}

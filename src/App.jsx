@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="flex">
         <Sidebar />
-        <div className="ml-64 p-6 w-full">
+        <div className="ml-64  w-full">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
