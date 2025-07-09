@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import React from "react";
 import { FaCode, FaFigma, FaCloudUploadAlt, FaFire } from "react-icons/fa";
 
@@ -19,9 +20,14 @@ const services = [
   },
   {
     icon: <FaFire size={30} className="text-indigo-600" />,
-    title: "Firebase Integration",
-    description: "User authentication and database using Firebase.",
+    title: "Firebase & Appwrite Integration",
+    description: "User authentication and database using Firebase & Appwrite.",
   },
+  {
+    icon: <FaFire size={30} className="text-indigo-600"/>,
+    title: "Code Debugging",
+    description: "Diagnosing and fixing UI and logic issues to ensure seamless user experiences"
+  }
 ];
 
 const Services = () => {

@@ -80,6 +80,7 @@ JavaScript, React, Tailwind CSS, Bootstrap, Firebase, Git, Vercel, Appwrite
           <li>JavaScript Full Course</li>
           <li>React.js Full Course</li>
           <li>HTML & CSS Full Course</li>
+          <li> Tailwind CSS Full Course</li>
         </ul>
       </section>
 
