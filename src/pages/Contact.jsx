@@ -18,11 +18,11 @@ const Contact = () => {
           <div className="space-y-2">
             <div className="flex items-center gap-3 text-gray-700">
               <FaEnvelope className="text-indigo-500" />
-              <span>youremail@gmail.com</span>
+              <span>asif.tech017@gmail.com</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
               <FaGithub className="text-indigo-500" />
-              <span>github.com/yourusername</span>
+              <span>github.com/asif-web-dev</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
               <FaLinkedin className="text-indigo-500" />
@@ -33,7 +33,7 @@ const Contact = () => {
 
         {/* Right Form Section */}
         <form
-          action="https://formsubmit.co/your-email@gmail.com"
+          action="https://formsubmit.co/asif.tech017@gmail.com"
           method="POST"
           className="space-y-6"
         >

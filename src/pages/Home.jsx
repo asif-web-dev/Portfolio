@@ -5,7 +5,7 @@ const Home = () => {
     <div
       className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center text-center px-4"
       style={{
-        backgroundImage: "url('/bg-home.jpg')", // ✅ Make sure image is in public folder
+        backgroundImage: "url('/bg-home.jpg')", 
         margin: 0,
         padding: 0,
       }}
