@@ -15,6 +15,13 @@ const Portfolio = () => {
       liveLink: "https://todo-app-blue-five-22.vercel.app/",
       codeLink: "https://github.com/asif-web-dev/Todo-App",
     },
+    {
+      title : "Blog app",
+      description: "A modern blog platform to create, edit, and share posts with a sleek and responsive UI.",
+      tech: ["React","Firebase", "Tailwind"],
+      liveLink :"https://blog-app-alpha-flame.vercel.app/",
+      codeLink: "https://github.com/asif-web-dev/blog-app"
+    }
   ];
 
   return (
