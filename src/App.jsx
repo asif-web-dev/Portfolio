@@ -11,9 +11,9 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <div className="flex">
+      <div className="flex flex-col sm:flex-row">
         <Sidebar />
-        <div className="ml-64  w-full">
+        <div className="flex-1 sm:ml-64">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -27,5 +27,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;

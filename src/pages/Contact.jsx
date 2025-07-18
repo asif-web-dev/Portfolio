@@ -1,30 +1,31 @@
+
 import React from "react";
 import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="px-6 py-12 text-gray-900">
+    <div className="px-4 sm:px-6 py-12 text-gray-900">
       <h1 className="text-3xl font-bold text-center mb-10">Contact Me</h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
         {/* Left Info Section */}
         <div className="space-y-6">
-          <h2 className="text-2xl font-semibold text-indigo-600">Let’s work together</h2>
-          <p className="text-gray-600">
+          <h2 className="text-2xl font-semibold text-indigo-600 text-center md:text-left">Let’s work together</h2>
+          <p className="text-gray-600 text-center md:text-left">
             Whether you have a question, project idea, or just want to say hi — my inbox is open.
             I’ll try to get back to you within a day or two.
           </p>
 
-          <div className="space-y-2">
-            <div className="flex items-center gap-3 text-gray-700">
+          <div className="space-y-4 text-center md:text-left">
+            <div className="flex items-center justify-center md:justify-start gap-3 text-gray-700">
               <FaEnvelope className="text-indigo-500" />
               <span>asif.tech017@gmail.com</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-700">
+            <div className="flex items-center justify-center md:justify-start gap-3 text-gray-700">
               <FaGithub className="text-indigo-500" />
               <span>github.com/asif-web-dev</span>
             </div>
-            <div className="flex items-center gap-3 text-gray-700">
+            <div className="flex items-center justify-center md:justify-start gap-3 text-gray-700">
               <FaLinkedin className="text-indigo-500" />
               <span>linkedin.com/in/yourusername</span>
             </div>
@@ -61,7 +62,7 @@ const Contact = () => {
 
           <button
             type="submit"
-            className="bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition duration-200"
+            className="w-full bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition duration-200"
           >
             Send Message
           </button>

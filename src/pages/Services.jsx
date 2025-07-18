@@ -1,50 +1,53 @@
-import { title } from "framer-motion/client";
+
 import React from "react";
-import { FaCode, FaFigma, FaCloudUploadAlt, FaFire } from "react-icons/fa";
+import { FaCode, FaLaptopCode, FaMobileAlt, FaDatabase, FaCloudUploadAlt, FaGitAlt } from "react-icons/fa";
 
 const services = [
   {
-    icon: <FaCode size={30} className="text-indigo-600" />,
-    title: "Website Development",
-    description: "Modern and responsive websites using React and Tailwind CSS.",
+    icon: <FaLaptopCode size={30} className="text-indigo-600" />,
+    title: "Responsive Design",
+    description: "Creating user interfaces that work on all devices using modern CSS frameworks.",
   },
   {
-    icon: <FaFigma size={30} className="text-indigo-600" />,
-    title: "UI/UX Conversion",
-    description: "Pixel-perfect design to code conversion from Figma or mockups.",
+    icon: <FaCode size={30} className="text-indigo-600" />,
+    title: "Frontend Development",
+    description: "Building dynamic and performant user interfaces using React, Tailwind CSS, and Bootstrap.",
+  },
+  {
+    icon: <FaDatabase size={30} className="text-indigo-600" />,
+    title: "Firebase Integration",
+    description: "Implementing authentication, Firestore database, and hosting using Firebase.",
   },
   {
     icon: <FaCloudUploadAlt size={30} className="text-indigo-600" />,
-    title: "Website Deployment",
-    description: "Deploying websites to Vercel, Netlify, or GitHub Pages.",
+    title: "Appwrite Integration",
+    description: "Setting up authentication, databases, and file storage using Appwrite.",
   },
   {
-    icon: <FaFire size={30} className="text-indigo-600" />,
-    title: "Firebase & Appwrite Integration",
-    description: "User authentication and database using Firebase & Appwrite.",
+    icon: <FaGitAlt size={30} className="text-indigo-600" />,
+    title: "Version Control",
+    description: "Using Git and GitHub for efficient code versioning and project collaboration.",
   },
   {
-    icon: <FaFire size={30} className="text-indigo-600"/>,
-    title: "Code Debugging",
-    description: "Diagnosing and fixing UI and logic issues to ensure seamless user experiences"
-  }
+    icon: <FaMobileAlt size={30} className="text-indigo-600" />,
+    title: "Deployment",
+    description: "Deploying applications to the web using platforms like Vercel and Netlify.",
+  },
 ];
 
 const Services = () => {
   return (
-    <div className="text-gray-900 px-6 py-10">
-      <h1 className="text-3xl font-bold text-gray-800 mb-8">My Services</h1>
-      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2">
+    <div className="px-4 py-12 bg-white text-gray-800">
+      <h2 className="text-3xl font-bold text-center text-indigo-700 mb-10">My Services</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {services.map((service, index) => (
           <div
             key={index}
-            className="bg-white shadow-md p-6 rounded-lg border border-gray-200 hover:shadow-lg transition"
+            className="bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition-transform duration-200 hover:scale-105 text-center"
           >
-            <div className="mb-4">{service.icon}</div>
-            <h2 className="text-xl font-semibold text-gray-800 mb-2">
-              {service.title}
-            </h2>
-            <p className="text-gray-600">{service.description}</p>
+            <div className="mb-4 flex justify-center">{service.icon}</div>
+            <h3 className="text-xl font-semibold mb-2 text-indigo-600">{service.title}</h3>
+            <p className="text-gray-700">{service.description}</p>
           </div>
         ))}
       </div>
