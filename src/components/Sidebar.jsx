@@ -1,6 +1,4 @@
 
-
-
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
@@ -38,7 +36,7 @@ const Sidebar = () => {
         <h1 className="text-xl font-bold mb-2 text-center">Asif</h1>
 
         <div className="flex justify-center space-x-4 text-xl mb-6">
-          <a href="#"><FaGithub /></a>
+          <a href="https://github.com/dashboard"><FaGithub /></a>
           <a href="#"><FaLinkedin /></a>
         </div>
 
