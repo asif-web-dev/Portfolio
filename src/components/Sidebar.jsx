@@ -36,8 +36,16 @@ const Sidebar = () => {
         <h1 className="text-xl font-bold mb-2 text-center">Asif</h1>
 
         <div className="flex justify-center space-x-4 text-xl mb-6">
-          <a href="https://github.com/asif-web-dev"><FaGithub /></a>
-          <a href="https://www.linkedin.com/in/asif-rasool-ba4aba375/"><FaLinkedin /></a>
+          <a 
+          href="https://github.com/asif-web-dev"
+          target="_blank"
+           rel="noopener noreferrer"
+          ><FaGithub /></a>
+          <a 
+          href="https://www.linkedin.com/in/asif-rasool-ba4aba375/"
+          target="_blank"
+           rel="noopener noreferrer"
+          ><FaLinkedin /></a>
         </div>
 
         <nav className="w-full">
