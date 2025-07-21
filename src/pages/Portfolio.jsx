@@ -5,21 +5,21 @@ const Portfolio = () => {
       title: "E-Commerce Website",
       description: "A responsive online store built using React and Firebase.",
       tech: ["React", "Firebase", "Tailwind"],
-      liveLink: "https://e-commerce-website-alpha-henna.vercel.app/",
+      liveLink: "https://e-commerce-website-asif-web.vercel.app/",
       codeLink: "https://github.com/asif-web-dev/ECommerce-Website",
     },
     {
       title: "Todo App",
       description: "A simple and clean todo list app with Sessionstorage",
       tech: ["React", "JavaScript"],
-      liveLink: "https://todo-app-blue-five-22.vercel.app/",
+      liveLink: "https://todo-app-asif-web.vercel.app/",
       codeLink: "https://github.com/asif-web-dev/Todo-App",
     },
     {
       title : "Blog app",
       description: "A modern blog platform to create, edit, and share posts with a sleek and responsive UI.",
       tech: ["React","Firebase", "Tailwind"],
-      liveLink :"https://blog-app-alpha-flame.vercel.app/",
+      liveLink :"https://blog-app-asif-web.vercel.app/",
       codeLink: "https://github.com/asif-web-dev/blog-app"
     }
   ];
