@@ -19,8 +19,8 @@ const Portfolio = () => {
       title : "Blog app",
       description: "A modern blog platform to create, edit, and share posts with a sleek and responsive UI.",
       tech: ["React","Firebase", "Tailwind"],
-      liveLink :"https://blog-app-asif-web.vercel.app/",
-      codeLink: "https://github.com/asif-web-dev/blog-app"
+      liveLink :"https://blog-application-mu-red.vercel.app/",
+      codeLink: "https://github.com/asif-web-dev/blog-application"
     }
   ];
 
